@@ -2,3 +2,84 @@ body {
     font-family: 'Inter', sans-serif;
 font-family: 'League Spartan', sans-serif;
 }
+header {
+    width: 1440px;
+margin-left: auto;
+margin-right: auto;
+}
+main {
+    width: 900px;
+    margin-left: auto;
+margin-right: auto;
+}
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu li {
+    display: inline;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+.foto {
+    position: absolute;
+    width: 243px;
+    height: 243px;
+}
+.about_me {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.my_foto {
+    padding-left: 47px;
+    padding-right: 38px;
+    padding-top: 32px;
+    padding-bottom: 44px;
+    margin-right: 308px;
+}
+.button {
+    background-color: #FF6464;
+    width: 193px;
+    height: 46px;
+    text-align: center;
+}
+.button_text {
+    height: 600px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.text_on_button {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.text_on_menu {
+    text-decoration: none;
+    color: #000000;
+}
+h1 {
+    font-weight: 700px;
+    font-size: 44px;
+    line-height: 53px;
+}
+.text {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.logo {
+    width: 34px;
+    height: 34px;
+}
+.recent_posts {
+    display: flex;
+    justify-content: space-between;
+}
