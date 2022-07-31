@@ -70,6 +70,20 @@ h1 {
     font-size: 44px;
     line-height: 53px;
 }
+h2 {
+    width: 406px;
+    height: 42px;
+    line-height: 150%;
+    font-weight: 600px;
+    font-size: 28px;
+}
+h3 {
+    width: 153px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 600px;
+    font-size: 24px;
+}
 .text {
     font-weight: 400px;
     font-size: 18px;
@@ -82,4 +96,30 @@ h1 {
 .recent_posts {
     display: flex;
     justify-content: space-between;
+    line-height: 95px;
+    white-space: nowrap;
+}
+.posts {
+    display: flex;
+}
+.sub_posts {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.view_posts {
+    text-decoration: none;
+    color: #00A8CC;
+    width: 72px;
+    height: 40px;
+}
+.design {
+    display: flex;
+}
+.pictures {
+    width: 275px;
+    height: 197px;
 }
